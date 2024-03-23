@@ -66,6 +66,7 @@ The following IAM policy needs to be attached to the role that is assumed during
     {
       "Effect": "Allow",
       "Action": [
+        "ec2:CreateVpc",
         "ec2:ModifyVpcAttribute",
         "ec2:DescribeVpcAttribute",
         "ec2:DeleteVpc"
